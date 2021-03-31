@@ -48,11 +48,6 @@ class _MyTabPageState extends State<MyTabPage>  with SingleTickerProviderStateMi
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-          // floatingActionButton: FloatingActionButton(
-          //   child: Icon(Icons.add),
-          //   onPressed: () {},
-          //   tooltip: 'add new',
-          // ),
           appBar: AppBar(
             title: Text('FlutterBook'),
             bottom: TabBar(
